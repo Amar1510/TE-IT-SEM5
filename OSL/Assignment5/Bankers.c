@@ -66,7 +66,7 @@ int is_safe()
             if (flag == 0) // need lesser than avail so complete process
             {
                 complete[i] = 1;
-                safe_seq[safeIndex] = i + 1;
+                safe_seq[safeIndex] = i;
                 safeIndex++;
                 for (j = 0; j < nr; j++)
                 {
